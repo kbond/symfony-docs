@@ -1,5 +1,5 @@
 .. index::
-   single: Templating; Namespaced Twig Paths
+   single: Templating; Namespaced Twig Pathst
 
 How to Use and Register Namespaced Twig Paths
 =============================================
@@ -73,6 +73,10 @@ directory:
                 '%kernel.root_dir%/../vendor/acme/foo-bar/templates' => 'foo_bar',
             );
         ));
+
+.. caution::
+
+    These paths are not warmed during cache warming. This is fixed in 2.8.
 
 The registered namespace is called ``foo_bar``, which refers to the
 ``vendor/acme/foo-bar/templates`` directory. Assuming there's a file
