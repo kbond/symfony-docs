@@ -1043,6 +1043,7 @@ Form Themes and Customization:
     :maxdepth: 1
 
     /form/bootstrap4
+    /form/tailwindcss2
     /form/form_customization
     /form/form_themes
 
